@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	font-family: 'Lato', sans-serif;
+}
+p{
+	color:#4A4A4A;
+}
+.logo-solar {
+	max-width: 150px;
+}
+
+.nav-item.active {
+	font-weight: bold;
+}
+
+.green {
+	color:#3AB54A;
+}
+
+.yellow {
+	color:#F5A623;
+}
+
+.white {
+	color:#ffffff;
+}
+
+.orange {
+	color:#E96642;
+}
+
+.bg-orange {
+	background-color: #E96642;
+}
+
+
+@media screen and (min-width: 992px) {
+    .navbar-nav.navbar-center {
+    position: absolute;
+    right: 1em;
+}
+}
