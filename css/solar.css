@@ -69,6 +69,33 @@ p{
 	box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
 }
 
+.estatus-cita{
+	color:#50E3C2;
+}
+
+.estatus-firma{
+	color:#F5A623;
+}
+
+.estatus-instalacion{
+	color:#4A90E2;
+}
+
+.estatus-instalado {
+	color:#4A90E2;
+}
+
+.estatus-pagado{
+	color:#7ED321;
+}
+
+.estatus-referido{
+	color:#50E3C2;
+}
+
+.estatus-revision{
+	color:#F5A623;
+}
 @media screen and (min-width: 992px) {
     .navbar-nav.navbar-center {
     position: absolute;
