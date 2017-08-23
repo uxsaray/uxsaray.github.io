@@ -35,10 +35,55 @@ p{
 	background-color: #E96642;
 }
 
+.embajador-menu-mobile {
+	display: none;
+}
+
+.embajador-menu-desktop {
+	display: block;
+	background-color: #f7f7f7;
+	padding: 1em;
+}
+
+.embajador-menu-desktop li {
+	list-style: none;
+	padding: 0.5em;
+}
+
+.embajador-menu-desktop li a {
+	color:#4A4A4A;
+	
+}
+
+.embajador-menu-desktop li a:hover {
+	text-decoration: none;
+}
+
+.first-steps {
+	padding: 1em;
+}
+.first-steps-item {
+	border:solid 1px #f7f7f7;
+	padding: 1em;
+	margin: 1em 0 0 0;
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+}
 
 @media screen and (min-width: 992px) {
     .navbar-nav.navbar-center {
     position: absolute;
     right: 1em;
+}
+
+}
+
+@media screen and (max-width: 992px) {
+
+	.embajador-menu-mobile {
+	display: block;
+		
+}
+	.embajador-menu-desktop  {
+	display: none;
 }
 }
