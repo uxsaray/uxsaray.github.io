@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
+body {
+	overflow-x: hidden;
+}
 
 * {
 	font-family: 'Lato', sans-serif;
@@ -96,6 +99,25 @@ p{
 .estatus-revision{
 	color:#F5A623;
 }
+
+.bg-yellow{
+	background-color: #F5A623;
+}
+
+.solar-info-2 {
+	padding: 3em 0;
+	color:white;
+}
+
+.bg-cotiza {
+	background-image: url("../img/cotiza-unsistema.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 20em;
+	text-align: right;
+	padding: 3em 5em 3em 12em;
+}
+
 @media screen and (min-width: 992px) {
     .navbar-nav.navbar-center {
     position: absolute;
