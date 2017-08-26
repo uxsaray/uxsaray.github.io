@@ -2,6 +2,7 @@
 /* CSS Document */
 body {
 	overflow-x: hidden;
+	padding-top: 4em;
 }
 
 * {
@@ -158,6 +159,65 @@ p{
     background-color: rgba(0,0,0,.02);
 }
 
+.number {
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+img.como-funciona {
+	width: 80%;
+	padding: 2em;
+}
+
+.solar-info-3{
+	padding: 2em 1em;
+}
+
+.bg-turquesa {
+	background-color: #17a2b8;
+	color:white;
+}
+
+.bg-turquesa p {
+	color:white;
+}
+
+.turquesa {
+	color:#17a2b8;
+}
+
+.img-proceso{
+	width: 70%;
+	margin: 1em;
+}
+
+.btn-warning {
+	color:white;
+	background-color: #F5A623;
+}
+
+img.cotiza-img {
+	width: 80%;
+	max-width: 400px;
+	text-align: center;
+}
+
+.solar-form-bg {
+	border-radius: 1em;
+	padding: 2em;
+	border:solid 1px #DEDEDE;
+	background-color: #fff;
+}
+
+.solar-form-bg a{
+	color:#17a2b8;
+}
+
+.info-somos{
+	padding: 2em;
+}
+
+
 @media screen and (min-width: 992px) {
     .navbar-nav.navbar-center {
     position: absolute;
@@ -190,5 +250,20 @@ p{
 	
 		.bg-embajador {
 	height: 10em;
+}
+	img.como-funciona {
+	width: 100%;
+}
+	.img-proceso{
+	width: 40%;
+}
+
+}
+
+@media screen and (max-width: 575px) {
+	.solar-form-bg {
+	border-radius: 0;
+	padding: 1em;
+	border:solid 1px #DEDEDE;
 }
 }

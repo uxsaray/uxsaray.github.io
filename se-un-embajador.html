@@ -6,12 +6,11 @@
 <title>Solar Fever</title>
 <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 <link rel="stylesheet" href="css/solar.css">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#"><img src="img/logo-solar-fever.png" alt="" class="logo-solar"></a>
+<body class="bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> <a class="navbar-brand" href="#"><img src="img/logo-solar-fever.png" alt="" class="logo-solar"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav navbar-center mr-auto">
@@ -24,30 +23,37 @@
     </ul>
   </div>
 </nav>
+
 <div class="container"> <br />
-  <h3 class="text-center green">SÉ UN EMBAJADOR</h3>
-  <br />
-  <p> Estas a un paso de ser parte de la red de embajadores que promueve el uso de energía sustentable y de emprender tu propio negocio.
+  <div class="row">
+    <div class="col-12 col-sm-5"> <br />
+      <p class="text-center"> <img src="img/se-embajador.png" alt="" class="cotiza-img"> </p>
+     <p> Estas a un paso de ser parte de la red de embajadores que promueve el uso de energía sustentable y de emprender tu propio negocio.
 Gana dinero ayudando al planeta. </p>
-  <br />
+    </div>
+    <div class="col-12 col-sm-7 solar-form-bg">
+      <h5 class="green text-center">SÉ UN EMBAJADOR</h5>
+      <br />
+      
+
   <div class="row justify-content-center">
-  <div class="col-10 col-md-4">
+  <div class="col-12 col-lg-6">
   	<button type="button" class="btn btn-primary btn-block">REGITRO CON FACEBOOK</button>
   </div>
   	
   </div>
   
-  <hr>
-  <h4 class="green text-center">O REGISTRO CON CORREO ELECTRÓNICO</h4>
+  <hr><br />
+  <h5 class="green text-center">O REGISTRO CON CORREO ELECTRÓNICO</h5>
   
   <form action="">
   
   <div class="form-row">
-    <div class="form-group col-12 col-md-4">
+    <div class="form-group col-12 col-md-6">
       <label for="nombre" class="col-form-label">Nombre </label>
       <input type="text" class="form-control" id="nombre" placeholder="Nombre completo">
     </div>
-    <div class="form-group col-12 col-md-4">
+    <div class="form-group col-12 col-md-6">
       <label for="email" class="col-form-label">Correo electrónico</label>
       <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
 	  </div>
@@ -56,13 +62,13 @@ Gana dinero ayudando al planeta. </p>
     <div class="form-row">
     	
     
-    <div class="form-group col-12 col-md-4">
+    <div class="form-group col-12 col-md-6">
       <label for="contraseña" class="col-form-label">Contraseña</label>
       <input type="password" class="form-control" id="contraseña" placeholder="Contraseña">
     </div>
   
   
-  <div class="form-group col-12 col-md-4">
+  <div class="form-group col-12 col-md-6">
       <label for="confirmarContraseña" class="col-form-label">Confirmar contraseña</label>
       <input type="password" class="form-control" id="confirmarContraseña" placeholder="Contraseña">
     </div>
@@ -75,7 +81,13 @@ Gana dinero ayudando al planeta. </p>
       </label>
     </div>
   </div>
-  <button type="submit" class="btn btn-success">REGISTRARSE</button>
+   <div class="row justify-content-center">
+  <div class="col-12 col-lg-6">
+  	<button type="button" class="btn btn-success btn-block">REGISTRARSE</button>
+  </div>
+  	
+  </div>
+
 
   </form>
 </div>
