@@ -6,6 +6,9 @@ body {
 
 * {
 	font-family: 'Lato', sans-serif;
+	line-height: normal;
+	color:#4A4A4A;
+	font-weight: 300;
 }
 p{
 	color:#4A4A4A;
@@ -34,6 +37,9 @@ p{
 	color:#E96642;
 }
 
+.bg-green{
+	background-color: #3AB54A;
+}
 .bg-orange {
 	background-color: #E96642;
 }
@@ -104,18 +110,48 @@ p{
 	background-color: #F5A623;
 }
 
-.solar-info-2 {
-	padding: 3em 0;
-	color:white;
+.solar-info{
+	padding: 0 0 1em 0;
+	text-align: center;
+}
+
+.bg-f7{
+	background-color: #f7f7f7;
 }
 
 .bg-cotiza {
-	background-image: url("../img/cotiza-unsistema.jpg");
+	background-image: url("../img/cotiza-unsistema.png");
 	background-repeat: no-repeat;
 	background-size: contain;
-	height: 20em;
-	text-align: right;
-	padding: 3em 5em 3em 12em;
+	background-position: center;
+	background-position: bottom;
+}
+
+.bg-embajador {
+	background-image: url("../img/se-embajador.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-position: bottom;
+}
+
+
+.title-3{
+	padding: 1em 0 0 0;
+	text-align: center;
+}
+
+.img-beneficios{
+	width: 40%;
+}
+
+.solar-info{
+	padding: 1em;
+}
+
+.solar-info-2{
+	padding: 2em;
+	text-align: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -134,5 +170,21 @@ p{
 }
 	.embajador-menu-desktop  {
 	display: none;
+}
+	
+	.solar-info{
+	padding: 0 1em 1em 1em;
+	text-align: center;
+}
+
+	.img-beneficios{
+	width: 30%;
+}
+	.bg-cotiza {
+	height: 14em;
+}
+	
+		.bg-embajador {
+	height: 10em;
 }
 }
