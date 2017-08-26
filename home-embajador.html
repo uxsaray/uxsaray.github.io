@@ -6,17 +6,20 @@
 <title>Solar Fever</title>
 <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 <link rel="stylesheet" href="css/solar.css">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="no-top bg-light">
 <div class="embajador-menu-mobile">
-	<nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#"><img src="img/logo-solar-fever.png" alt="" class="logo-solar"></a>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> <a class="navbar-brand" href="#"><img src="img/logo-solar-fever.png" alt="" class="logo-solar"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav navbar-center mr-auto">
-     <li>Saray Gutiérrez <br /><span class="green">EMBAJADOR</span></li>
+     <li> <div class="row">
+        <div class="col-3"> <img src="img/img-avatar.png" alt="" class="img-avatar"> </div>
+        <div class="col-9 align-middle"> Saray Gutiérrez <br />
+          <span class="green">EMBAJADOR</span> </div>
+      </div></li>
       <li class="nav-item"> <a class="nav-link" href="perfil.html"><span class="icon-user"></span>Perfil</a></li>
       <li class="nav-item"> <a class="nav-link" href=""><span class="icon-exit"></span>Cerrar sesión</a> </li>
       <hr>
@@ -35,7 +38,15 @@
 
  <div class="embajador-menu-desktop col-4 col-md-3">
     <ul class="">
-     <li>Saray Gutiérrez <br /><span class="green">EMBAJADOR</span></li>
+     <li>
+     <div class="row">
+     	<div class="col-3">
+     		<img src="img/img-avatar.png" alt="" class="img-avatar">
+     	</div>
+     	<div class="col-9 align-middle">
+     		Saray Gutiérrez <br /><span class="green">EMBAJADOR</span>
+     	</div>
+     </div></li>
       <li class=""> <a class="" href="perfil.html"><span class="icon-user"></span>Perfil</a></li>
       <li class=""> <a class="" href=""><span class="icon-exit"></span>Cerrar sesión</a> </li>
       <hr>
@@ -48,11 +59,15 @@
     </ul>
  
 </div>
-
 <div class="col-12 col-md-12 col-lg-9">
-	<h4>Hola, Usuario</h4>
+
+<div class="row">
+	<div class="col-1 col-md-2"></div>
+	<div class="col-10 col-md-8 content-embajador">
+		<h5>Hola, Usuario</h5>
 	<p>Bienvenid@ a tu cuenta de embajador aquí encontrarás todo lo necesario para administrar tu negocio solar.</p>
-	<h4 class="green">Primeros pasos</h4>
+	<h5 class="green">PRIMEROS PASOS</h5>
+	
 	<div class="first-steps">
 		<div class="first-steps-item">
 			<div class=""><span class="icon-bubbles2"></span> Empieza a referir</div>
@@ -67,17 +82,37 @@
 			
 		</div>
 	</div>
-	<h4 class="green">KP's</h4>
+	<br />
+	<h5 class="green">KPI'S</h5>
 	<div class="row">
-		<div class="col-4 col-lg-3 text-center"><h2>0</h2><p>Referidos</p></div>
-		<div class="col-4 col-lg-3 text-center"><h2>$0,000.00</h2><p>Comisión por pagar</p></div>
-		<div class="col-4 col-lg-3 text-center"><h2>0</h2><p>CO2 Ahorrado</p></div>
-		<div class="col-4 col-lg-3 text-center"><h2>$0,000.00</h2><p>Comisiones pagadas</p></div>
+		<div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center">
+			<div class="kpi-item">
+			<h4>0</h4><p>Referidos</p>
+			</div>
+		</div>
+		<div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center">
+			<div class="kpi-item">
+			<h4>0</h4><p>CO2 Ahorrado</p>
+			</div>
+		</div>
+		<div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center">
+			<div class="kpi-item">
+			<h4>$000,000.00</h4><p>Comisión por pagar</p>
+			</div>
+		</div>
+		<div class="col-12 col-md-6 col-lg-6 col-xl-3 text-center">
+			<div class="kpi-item">
+			<h4>$000,000.00</h4><p>Comisiones pagadas</p>
+			</div>
+		</div>
+		
 	</div>
-	<h4 class="green">Nuevo Material</h4>
+	
+		<br />
+		<h5 class="green">NUEVO MATERIAL</h5>
 	<div class="card-group">
   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
+    <img class="card-img-top" src="img/solar-slide-1.jpg" alt="Card image cap">
     <div class="card-body">
       <h4 class="card-title">Card title</h4>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -85,24 +120,49 @@
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
+    <img class="card-img-top" src="img/solar-slide-2.jpg" alt="Card image cap">
     <div class="card-body">
       <h4 class="card-title">Card title</h4>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
+
+  
+
+
+</div>
+<div class="card-group">
   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
+    <img class="card-img-top" src="img/solar-slide-1.jpg" alt="Card image cap">
     <div class="card-body">
       <h4 class="card-title">Card title</h4>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
-</div>
+  <div class="card">
+    <img class="card-img-top" src="img/solar-slide-2.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+
+  
+
 
 </div>
+	</div>
+</div>
+
+
+	
+	
+	
+	
+	</div>
 <!-- Modal de iniciar sesión -->
 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">

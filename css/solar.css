@@ -51,8 +51,9 @@ p{
 
 .embajador-menu-desktop {
 	display: block;
-	background-color: #f7f7f7;
+	background-color: #fff;
 	padding: 1em;
+	height:inherit;
 }
 
 .embajador-menu-desktop li {
@@ -70,13 +71,14 @@ p{
 }
 
 .first-steps {
-	padding: 1em;
+	
 }
 .first-steps-item {
 	border:solid 1px #f7f7f7;
+	border-radius: 0.5em;
 	padding: 1em;
 	margin: 1em 0 0 0;
-	box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+	background-color: #fff;
 }
 
 .estatus-cita{
@@ -203,7 +205,7 @@ img.cotiza-img {
 }
 
 .solar-form-bg {
-	border-radius: 1em;
+	border-radius: 0.5em;
 	padding: 2em;
 	border:solid 1px #DEDEDE;
 	background-color: #fff;
@@ -217,11 +219,29 @@ img.cotiza-img {
 	padding: 2em;
 }
 
+img.img-avatar{
+	width: 100%;
+}
+
+.content-embajador {
+	padding: 2em;
+}
+
+.kpi-item {
+	border:solid 1px #f7f7f7;
+	border-radius: 0.5em;
+	padding: 1em;
+	margin: 1em 0 0 0;
+	background-color: #fff;
+}
 
 @media screen and (min-width: 992px) {
     .navbar-nav.navbar-center {
     position: absolute;
     right: 1em;
+}
+	.no-top{
+	padding-top:0;
 }
 
 }
