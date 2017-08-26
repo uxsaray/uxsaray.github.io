@@ -235,6 +235,27 @@ img.img-avatar{
 	background-color: #fff;
 }
 
+.item-propuesta {
+	border:solid 1px #DEDEDE;
+	text-align: center;
+	padding: 1em;
+	height: 100%;
+}
+
+.price-solar{
+	color:#17a2b8;
+}
+
+.price-cfe {
+	color:#E96642;
+}
+
+.bg-sky {
+	background-color: #E8F8F8;
+	padding: 1em;
+	text-align: center;
+}
+
 @media screen and (min-width: 992px) {
     .navbar-nav.navbar-center {
     position: absolute;
