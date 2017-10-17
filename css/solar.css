@@ -1,0 +1,404 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	color:#373737;
+	position: relative;
+	margin: 0;
+	min-height: 100%;
+}
+
+img.logo-solar {
+	height: 34px;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 3em;
+}
+
+h2{
+	font-weight: bold;
+}
+
+hr.cotiza {
+	border: solid 2px #ffc20e;
+	width: 25%;
+	margin-left: 0;
+}
+
+hr.embajador {
+	border: solid 2px #39b54a;
+	width: 25%;
+	margin-left: 0;
+}
+
+hr.proceso {
+	border: solid 2px #ffc20e;
+	width: 25%;
+}
+
+hr.plataforma {
+	border: solid 2px #39b54a;
+	width: 25%;
+}
+
+.bg-gray {
+	background-color: #f7f7f7;
+}
+
+
+.navbar-inverse {
+	background-color: #353a40;
+	border-color: #353a40;;
+}
+
+.navbar-brand {
+	padding: 6px 6px 6px 24px;
+}
+/*
+  Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
+  CSS from:       http://codepen.io/transportedman/pen/NPWRGq
+  and:            http://stackoverflow.com/questions/18548731/bootstrap-3-carousel-fading-to-new-slide-instead-of-sliding-to-new-slide
+  Inspired from:  http://codepen.io/Rowno/pen/Afykb 
+*/
+.carousel-fade .carousel-inner .item {
+	opacity: 0;
+	transition-property: opacity;
+  }
+  
+  .carousel-fade .carousel-inner .active {
+	opacity: 1;
+  }
+  
+  .carousel-fade .carousel-inner .active.left,
+  .carousel-fade .carousel-inner .active.right {
+	left: 0;
+	opacity: 0;
+	z-index: 1;
+  }
+  
+  .carousel-fade .carousel-inner .next.left,
+  .carousel-fade .carousel-inner .prev.right {
+	opacity: 1;
+  }
+  
+  .carousel-fade .carousel-control {
+	z-index: 2;
+  }
+
+  .como-funciona {
+	  padding-top: 6em;
+	  padding-bottom: 1em;
+  }
+  
+  /*
+	WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+	Need to override the 3.3 new styles for modern browsers & apply opacity
+  */
+  @media all and (transform-3d), (-webkit-transform-3d) {
+	  .carousel-fade .carousel-inner > .item.next,
+	  .carousel-fade .carousel-inner > .item.active.right {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 0, 0);
+				transform: translate3d(0, 0, 0);
+	  }
+	  .carousel-fade .carousel-inner > .item.prev,
+	  .carousel-fade .carousel-inner > .item.active.left {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 0, 0);
+				transform: translate3d(0, 0, 0);
+	  }
+	  .carousel-fade .carousel-inner > .item.next.left,
+	  .carousel-fade .carousel-inner > .item.prev.right,
+	  .carousel-fade .carousel-inner > .item.active {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+				transform: translate3d(0, 0, 0);
+	  }
+  }
+
+
+
+  .btn-cotizar, .btn-embajador {
+	  color:white;
+	  text-decoration: none;
+	  border: solid 2px #fff;
+	  padding: 1em 4em;
+	  margin: 1em;
+	  border-radius: 2em;
+	  background-color: rgba(0,0,0,0.5);
+	  -o-transition:.5s;
+	  -ms-transition:.5s;
+	  -moz-transition:.5s;
+	  -webkit-transition:.5s;
+	  text-shadow: none;
+  }
+
+.btn-embajador:hover {
+	background-color: #39b54a;
+}
+
+.btn-cotizar:hover {
+	background-color: #ffc20e;
+	color:#563f05;
+}
+.solar-why {
+	padding: 2em;
+}
+
+.btn-cotizar-02{
+	color:#563f05;
+	text-decoration: none;
+	padding: 1em 4em;
+	border-radius: 2em;
+	background-color: #ffc20e;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	text-shadow: none;
+}
+
+.btn-cotizar-02:hover {
+	font-weight: 600;
+	border: solid 1px #563f05;
+}
+
+.btn-embajador-02{
+	color:#fff;
+	text-decoration: none;
+	padding: 1em 4em;
+	border-radius: 2em;
+	background-color:#39b54a;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	text-shadow: none;
+}
+
+.btn-embajador-02:hover {
+	font-weight: 600;
+	border: solid 1px #563f05;
+}
+
+.btn-facebook{
+	color:white;
+	text-decoration: none;
+	padding: 1em 4em;
+	border-radius: 2em;
+	background-color: #3b5998;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	text-shadow: none;
+}
+
+.img-cotiza-01 img{
+	width: 90%;
+}
+
+.img-cotiza-01 {
+	align-content: center;
+	padding-top:4em;
+}
+.bg-white-end {
+	background-image: url("../img/solar/bg-white-end.jpg");
+	background-size: 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+	padding-top: 4em;
+	background-color: #f7f7f7;
+	
+
+}
+
+.img-proceso {
+	margin-bottom: 1em;
+	margin-top: 2em;
+}
+
+.footer {
+	background-color: #353a40;
+	color:#a5a6a7;
+	padding: 2em 1em;
+	text-align: center;
+	
+	
+	
+}
+
+.footer a {
+	text-decoration: none;
+	color:#a5a6a7;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+	color:#fff;
+}
+
+.solar-sky {
+	background-color: #d9edef;
+}
+
+.bg-sky{
+	background-color: #d9edef;
+} 
+
+.bg-cotizar {
+	background-image: url("../img/solar/cotizar.jpeg");
+	background-size: cover;
+	padding-top: 4em;
+	
+}
+
+.bg-embajador {
+	background-image: url("../img/solar/embajador.jpg");
+	background-size: cover;
+	padding-top: 4em;
+	
+}
+
+.cotizar-text {
+	color:white;
+	margin-top:10%;
+	background-color: rgba(0, 0, 0, .6);
+	padding: 2em;
+}
+
+.cotizar-form {
+	margin-top:10%;
+	margin-bottom: 10em;
+	background-color: rgba(256, 256, 256, 1);
+	padding: 2em;
+	box-shadow: 4px 4px 4px #000;
+}
+
+.quienes-somos-header {
+	height: 400px;
+	background-image: url("../img/solar/somos.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top:2em;
+}
+
+
+@media (max-width:768px) { 
+	.home-bg {
+		background-color:#353a40;
+		color:white;
+	}
+	.solar-carousel-caption {
+		top:10%;
+	}
+	.bg-home-end {
+		background-image: url("../img/solar/bg-home-end-m.jpg");
+		background-size: 100%;
+		background-position: top;
+		background-repeat: no-repeat;
+		padding-top: 4em;
+	
+	}
+
+	.bg-gray-end {
+		background-image: url("../img/solar/bg-gray-end.jpg");
+		background-size: 100%;
+		background-position: top;
+		background-repeat: no-repeat;
+		padding-top: 4em;
+		background-color: white;
+	
+	}
+
+	.bg-sky-end {
+		background-image: url("../img/solar/bg-sky-end.jpg");
+		background-size: 100%;
+		background-position: top;
+		background-repeat: no-repeat;
+		padding-top: 4em;
+		background-color: white;
+	
+	}
+
+
+	.bg-white-end {
+		padding-top: 2em;
+	}
+	.img-proceso img {
+		width: 40%;
+	}
+	.header-como-funcion {
+		background-image: url("../img/solar/como_funciona.jpg");
+		background-size: 100%;
+		background-position: middle;
+		height: 250px;
+		padding: 4em;
+		text-align: center;
+		color: white;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	}
+
+
+}
+
+@media (min-width:769px) { 
+	.home-bg {
+		background-image: url("../img/solar/bg-home.jpg");
+		background-size: 100%;
+		background-repeat: repeat-y;
+		color:white;
+	}
+	.solar-carousel-caption {
+		top:25%;
+	}
+	.text-cotiza-01 {
+		margin-top: 35%;
+	}
+	.bg-home-end {
+		background-image: url("../img/solar/bg-home-end.jpg");
+		background-size: 100%;
+		background-position: top;
+		background-repeat: no-repeat;
+		padding-top: 10em;
+	
+	}
+
+	.bg-gray-end {
+		background-image: url("../img/solar/bg-gray-end.jpg");
+		background-size: 100%;
+		background-position: top;
+		background-repeat: no-repeat;
+		padding-top: 10em;
+		background-color: white;
+	
+	}
+
+	.bg-sky-end {
+		background-image: url("../img/solar/bg-sky-end.jpg");
+		background-size: 100%;
+		background-position: top;
+		background-repeat: no-repeat;
+		padding-top: 10em;
+		background-color: white;
+	
+	}
+
+	.bg-white-end {
+		padding-top: 15em;
+	}
+	.img-proceso img {
+		width: 100%;
+	}
+
+	.header-como-funcion {
+		background-image: url("../img/solar/como_funciona.jpg");
+		background-size: 100%;
+		background-position: middle;
+		height: 250px;
+		padding: 6em;
+		text-align: center;
+		color: white;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	}
+}
