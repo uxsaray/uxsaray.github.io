@@ -283,6 +283,53 @@ hr.plataforma {
 	margin-top:2em;
 }
 
+.img-recibo img {
+	width:100%;
+}
+
+
+.h-200{
+	height: 350px;
+}
+
+
+
+/* carousel */
+#quote-carousel {
+	padding: 0 10px 30px 10px;
+	margin-top: 30px;
+	text-align:center;
+  }
+  /* indicator position */
+  #quote-carousel .carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+  }
+  /* indicator color */
+  #quote-carousel .carousel-indicators li {
+	background: #FFF;
+  }
+  /* active indicator */
+  #quote-carousel .carousel-indicators .active {
+	background:#ffc20e;
+	height:10px;
+	width:10px;
+	margin-bottom:1px;
+  }
+  /* typography */
+  #quote-carousel h1 {
+	text-align:center;
+	margin-bottom:-20px !important;
+  }
+  p {
+	font-style:italic;
+  }
+
+
+
+
 
 @media (max-width:768px) { 
 	.home-bg {
